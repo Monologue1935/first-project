@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Serif+KR:wght@200&family=Song+Myung&display=swap');
+
+/* 
+font-family: 'Gugi', cursive;
+font-family: 'Noto Serif KR', serif;
+font-family: 'Song Myung', serif; 
+*/
+#container {
+    width: 35%;
+    height: 35%;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.controls {
+    display: none;
+}
+
+.image > small {
+    font-size: x-small;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Noto Serif KR', serif;
+    line-height: 130%;
+    background-color: #F2CEAE;
+    color: #40352C;
+    text-align: center;
+}
+
+
+.title {
+    color: #8C7B26;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+
+.lyrics {
+    width: 70%;
+    height: 70%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Song Myung', serif;
+
+}
